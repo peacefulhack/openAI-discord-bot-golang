@@ -1,12 +1,14 @@
 # GoTalk
 <hr>
 
-[![General badge](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://shields.io/)
+[![General badge](https://img.shields.io/badge/-Discord%20Bot-black?style=flat&logo=discord)](https://shields.io/)
+
 
 A simple template to build a discord bot with ChatGPT, GPT3, DALL·E 2, and whisper wrapper.
 i use [discordgo](https://github.com/bwmarrin/discordgo) as my main discord bot and [go-openai](https://github.com/sashabaranov/go-openai) for the simple lightweight openAI wrapper.
 
-
+### Table of Content
+[Getting Started](#Getting_Started)
 
 ## Token
 
