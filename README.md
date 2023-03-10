@@ -1,7 +1,9 @@
+<img align="right" alt="DiscordGo logo" src="./assets/gopher.png" width="400">
+
 # GoTalk
 <hr>
 
-<img align="right" alt="DiscordGo logo" src="./assets/gopher.png" width="400">
+
 
 [![General badge](https://img.shields.io/badge/-Discord%20Bot-black?style=flat&logo=discord)](https://shields.io/)
 
@@ -10,7 +12,11 @@ A simple template to build a discord bot with ChatGPT, GPT3, DALL·E 2, and whis
 i use [discordgo](https://github.com/bwmarrin/discordgo) as my main discord bot and [go-openai](https://github.com/sashabaranov/go-openai) for the simple lightweight openAI wrapper.
 
 ### Table of Content
-[Getting Started](#Getting_Started)
+- [GoTalk](#gotalk)
+    + [Table of Content](#table-of-content)
+    * [Link](#link)
+    * [Getting Started](#getting-started)
+    * [ToDo](#todo)
 
 ## Link
 
