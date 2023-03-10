@@ -52,3 +52,31 @@ func DallEChat(message string) (string, error) {
 
 	return res.Data[0].URL, nil
 }
+
+func Whisper(prefix string) (string, error) {
+	var tempName string
+	var err error
+
+	if CheckFolder("temp") {
+		tempName, err = NameQueFolder("temp", "temp*.mp3")
+		if err != nil {
+			return "", status.Errorf(codes.Internal, err.Error())
+		}
+	} else {
+		err = CreateFolder("temp")
+		if err != nil {
+			return "", status.Errorf(codes.Internal, err.Error())
+		}
+		tempName = "temp001.mp3"
+	}
+
+	client := openai.NewClient(AIToken)
+	resp, err := client.CreateTranscription(context.Background(), openai.AudioRequest{
+		Model:    openai.Whisper1,
+		FilePath: tempName,
+	})
+	if err != nil {
+		return "", status.Errorf(codes.Internal, err.Error())
+	}
+	return resp.Text, nil
+}
