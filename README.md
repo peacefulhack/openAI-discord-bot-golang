@@ -1,6 +1,8 @@
 # GoTalk
 <hr>
 
+<img align="right" alt="DiscordGo logo" src="./assets/gopher.png" width="400">
+
 [![General badge](https://img.shields.io/badge/-Discord%20Bot-black?style=flat&logo=discord)](https://shields.io/)
 
 
