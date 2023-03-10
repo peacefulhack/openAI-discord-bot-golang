@@ -60,5 +60,5 @@ go run main.go
 - ~~add support ChatGPT~~
 - ~~make update to support GPT3~~
 - ~~make update to support GPT3.5~~
-- make update to support whisper
+- ~~make update to support whisper~~
 - make update to support Dall-E 2 (*no public API yet*)
